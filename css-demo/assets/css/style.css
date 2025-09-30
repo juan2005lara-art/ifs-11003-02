@@ -1,0 +1,10 @@
+body{  
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header.primary{
+    backckground: red;
+    text-align:center;
+    color:#ffffff;
+    padding:40px;
+}
