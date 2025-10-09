@@ -154,6 +154,7 @@ aside .container{
   flex-direction:row;
   justify-content:space-around;
   gap:40px;
+  border-radius: 7px;
 }
 
 aside .container a{
