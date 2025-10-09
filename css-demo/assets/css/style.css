@@ -13,6 +13,28 @@ html {
   margin:20px auto;
 }
 
+.img-right{
+  float:right;
+  margin: 10px 0 10px 20px;
+  border: 5px double #000000;
+  padding: 5px;
+}
+
+.img-left{
+  float:right;
+  margin: 10px 0 10px 20px;
+  border: 5px double #000000;
+  padding: 5px;
+}
+
+.img-center{
+  display: block;
+  margin: 20px auto;
+  border: 5px double #000000;
+  padding: 5px;
+}
+
+
 img{
   max-width:100%;
 }
@@ -83,12 +105,12 @@ aside{
 }
 
 
-section{
-  /*background: #9D55D9;
+/*section{
+  background: #9D55D9;
   padding: 10px 20px 20px 30px;
   margin: 20px;
-  border-radius: 10px;*/
-}
+  border-radius: 10px;
+}*/
 
 
 
@@ -113,7 +135,10 @@ aside .widget footer{
   justify-content:center;
   gap:20px;
   color: #000000;
-  
+  border-top: 1px solid#000000;
+  border-bottom: 1px solid #000000;
+  padding: 20px 0;
+  margin: 30px auto 20px auto;
 }
 
 #content .post{
@@ -143,8 +168,65 @@ aside .widget footer{
   text-decoration:none;
 }
 
+#practice h2{
+  color: #000000;
+  border-bottom: 1px dotted #000000;
+}
+
+#practice a {
+  color: white;
+}
+
+#practice a hover{
+  text-decoration: none;
+}
+
+#practice p{
+  line-height: 1.5rem;
+}
+
+#practice h3{
+  border-left: 10px solid #9D55D9;
+  padding-left: 10px;
+}
+
+
+#practice table{
+  width: 100%;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+#practice caption{
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin:10px;
+}
+
+#practice tr:nth-child(even){
+  background-color: #3b638b;
+}
+
+#practice tr:hover{
+  background-color: #3b638b;
+}
+
+#practice th{
+  background-color: #3b638b;
+}
+
+#practice td{
+  border: 1px solid #000000;
+  padding: .4rem;
+}
+
+#practice td:nth-child(1n+2){
+  text-align: right;
+}
+
+
 aside[role="complementary"]{
-  background-color: #9D55D9;;
+  background-color: #9D55D9;
   color:#000000;
   padding:40px 0;
 }
@@ -218,5 +300,8 @@ aside .widget footer{
   margin:20px auto;
 }
   
+a{
+  color: #ffffff;
+}
   
 }
