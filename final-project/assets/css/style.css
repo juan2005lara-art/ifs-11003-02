@@ -10,11 +10,13 @@ html {
 .container{
   width:80vw;
   max-width:960px;
-  margin:50px auto ;
+  margin:100px auto ;
+}
+
+footer{
+  text-align:center;
 }
 
 header{
-    text-align: center;
-    border: 10px black;
-    margin: 100px;
+  text-align: center;
 }
