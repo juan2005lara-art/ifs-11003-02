@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container{
+  width:80vw;
+  max-width:960px;
+  margin:50px auto ;
+}
+
+header{
+    text-align: center;
+    border: 10px black;
+    margin: 100px;
+}
