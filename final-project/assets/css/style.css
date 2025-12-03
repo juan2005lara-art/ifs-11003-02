@@ -8,14 +8,15 @@ html {
 }
 
 .container{
-  width:80vw;
-  max-width:960px;
-  margin:100px auto ;
+  width:94vw;
+  max-width:1500px;
+  margin:50px auto ;
  
 }
 
 footer{
   text-align:center;
+  border-top: 1px solid#000000;
 }
 
 header.primary{
@@ -23,7 +24,7 @@ header.primary{
   text-align: center;
   background-color: #8C3D2B;
   padding: 20px 40px;
-  border-radius:20px;
+  border-radius:3px;
 }
 
 header.primary nav ul a{
@@ -55,14 +56,24 @@ header.primary nav ul{
   justify-content:center;
   gap:20px;
   color: #000000;
-  border-top: 1px solid#000000;
-  border-bottom: 1px solid #000000;
   padding: 20px 0;
   margin: 30px auto 20px auto;
 }
 
+#content .post{
+  background-color: #D97D5B;
+  padding: 20px;
+  border-radius: 5px;
+  border:15px solid #593131;
+}
+
 #intro{
   background-color: #593131;
+  padding: 30px;
+  border-radius: 5px;
+}
+#intro {
+  color: #F2C6A0;
 }
 
 body{
@@ -72,5 +83,7 @@ body{
   font-weight: 441;
   font-style: normal;
 }
+
+
 
   
