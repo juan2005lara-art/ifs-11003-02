@@ -60,6 +60,13 @@ header.primary nav ul{
   margin: 30px auto 20px auto;
 }
 
+img{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 50px;
+}
+
 #content .post{
   background-color: #D97D5B;
   padding: 20px;
